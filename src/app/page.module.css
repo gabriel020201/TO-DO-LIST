@@ -1,0 +1,53 @@
+.todocard{
+    display: flex;
+}
+
+.todocard svg{
+    width: 20px;
+    height: 20px;
+}
+
+.outerPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F1EAFF;
+    
+}
+
+.todoOut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #D0A2F7;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 80vh;
+    min-width: 400px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.todoOut h1{
+    background-color: #D0A2F7;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    height: 10%;
+}
+
+.todoOut .section1{
+    width: 100%;
+    height: 10%;
+    background-color: #D0A2F7;
+    display: flex;
+    
+}
+
+.todos{
+    height: 9%;
+    background-color: aqua;
+}
